@@ -1,0 +1,190 @@
+/* ─────────────────────────────────────
+   components.css
+   Reusable UI pieces: tags, cards,
+   buttons, links, theme toggle
+───────────────────────────────────── */
+
+/* ─────────────────────────────────────
+   THEME TOGGLE BUTTON
+───────────────────────────────────── */
+.theme-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: var(--card);
+  color: var(--text2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  z-index: 100;
+  transition: border-color var(--transition), color var(--transition);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.theme-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ─────────────────────────────────────
+   SOCIAL / NAV LINKS
+───────────────────────────────────── */
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--text2);
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--tag-bg);
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ─────────────────────────────────────
+   SKILL / STACK TAGS
+───────────────────────────────────── */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  padding: 3px 9px;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+/* Accent variant — used for primary/starred skills */
+.tag.accent {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: transparent;
+}
+
+/* ─────────────────────────────────────
+   PROJECT CARD
+───────────────────────────────────── */
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  padding: 18px 20px;
+  transition: border-color var(--transition);
+}
+
+.project-card:hover {
+  border-color: var(--accent);
+}
+
+/* Top row: title + badge */
+.project-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.project-name {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* Category badge */
+.project-badge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  color: var(--accent);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Description */
+.project-desc {
+  margin-top: 6px;
+  font-size: 13.5px;
+  color: var(--text2);
+  line-height: 1.65;
+}
+
+/* FAANG signal callout */
+.project-why {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text3);
+  font-family: var(--font-mono);
+  border-left: 2px solid var(--accent);
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+/* Stack tags inside card */
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 12px;
+}
+
+/* GitHub / Demo links */
+.project-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.p-link {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--text3);
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.p-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ─────────────────────────────────────
+   CTA BUTTON (footer)
+───────────────────────────────────── */
+.cta {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 8px 18px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius-md);
+  transition: opacity var(--transition);
+}
+
+.cta:hover {
+  opacity: 0.85;
+}

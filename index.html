@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <meta name="description" content="ML Engineer & Data Scientist portfolio" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <button class="theme-btn" id="themeToggle" aria-label="Toggle dark mode">
+    <span id="theme-icon">☾</span>
+  </button>
+
+  <main class="page">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="avatar" id="avatar" role="img" aria-label="Avatar"></div>
+      <div class="header-info">
+        <h1 class="name" id="name"></h1>
+        <p class="role" id="role"></p>
+        <p class="status">
+          <span class="dot"></span>
+          <span id="status-text"></span>
+        </p>
+        <nav class="links" id="links" aria-label="Social links"></nav>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="section" aria-labelledby="about-label">
+      <div class="section-label" id="about-label">about</div>
+      <p class="about-text" id="about-text"></p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" aria-labelledby="skills-label">
+      <div class="section-label" id="skills-label">skills</div>
+      <div class="skill-groups" id="skills-container"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" aria-labelledby="projects-label">
+      <div class="section-label" id="projects-label">projects</div>
+      <div class="projects" id="projects-container"></div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" aria-labelledby="edu-label">
+      <div class="section-label" id="edu-label">education</div>
+      <div class="timeline" id="education-container"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <span class="footer-text" id="footer-tagline"></span>
+      <a class="cta" id="footer-cta" href="#"></a>
+    </footer>
+
+  </main>
+
+  <script src="js/theme.js"></script>
+  <script src="js/render.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* ─────────────────────────────────────
+   responsive.css
+   Mobile-first breakpoints
+   Targets: 480px (phone), 640px (tablet)
+───────────────────────────────────── */
+
+/* ── Small phones (≤ 480px) ── */
+@media (max-width: 480px) {
+  .page {
+    padding: 28px 16px 60px;
+  }
+
+  /* Stack avatar above text on very small screens */
+  .header {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+  }
+
+  .avatar-initials {
+    font-size: 18px;
+  }
+
+  /* Project cards: stack badge below title */
+  .project-top {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  /* Skill category labels — tighten width */
+  .skill-cat {
+    min-width: 70px;
+    font-size: 10px;
+  }
+
+  /* Footer: stack vertically */
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Theme toggle: smaller, stay in corner */
+  .theme-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+    top: 14px;
+    right: 14px;
+  }
+}
+
+/* ── Tablets (481px – 640px) ── */
+@media (min-width: 481px) and (max-width: 640px) {
+  .page {
+    padding: 36px 20px 72px;
+  }
+
+  .header {
+    gap: 20px;
+  }
+
+  .project-top {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
+/* ── Wide screens (≥ 900px) ── */
+@media (min-width: 900px) {
+  .page {
+    padding: 64px 32px 96px;
+  }
+
+  .skill-groups {
+    gap: 12px;
+  }
+}
+
+/* ── Reduce motion for accessibility ── */
+@media (prefers-reduced-motion: reduce) {
+  .cursor {
+    animation: none;
+    opacity: 1;
+  }
+
+  .dot {
+    animation: none;
+  }
+
+  * {
+    transition: none !important;
+  }
+}

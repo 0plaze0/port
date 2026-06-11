@@ -1,0 +1,64 @@
+/* ─────────────────────────────────────
+   tokens.css
+   Design tokens: colors, fonts, radius
+   Edit these to retheme the entire site
+───────────────────────────────────── */
+
+/* ── Light mode (default) ── */
+:root {
+  /* Backgrounds */
+  --bg:          #fafafa;
+  --bg2:         #f3f4f6;
+  --bg3:         #e9eaec;
+  --card:        #ffffff;
+
+  /* Text */
+  --text:        #0f0f0f;
+  --text2:       #4b5563;
+  --text3:       #9ca3af;
+
+  /* Accent — change this one value to retheme */
+  --accent:      #6366f1;
+  --accent-soft: #eef2ff;
+
+  /* Border */
+  --border:      #e5e7eb;
+
+  /* Tags */
+  --tag-bg:      #f1f1f3;
+  --tag-text:    #374151;
+
+  /* Typography */
+  --font-sans:   'Inter', system-ui, sans-serif;
+  --font-display:'Space Grotesk', system-ui, sans-serif;
+  --font-mono:   'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Radius */
+  --radius-sm:   5px;
+  --radius-md:   8px;
+  --radius-lg:   10px;
+  --radius-xl:   14px;
+
+  /* Transitions */
+  --transition:  0.2s ease;
+}
+
+/* ── Dark mode ── */
+[data-theme="dark"] {
+  --bg:          #0f0f0f;
+  --bg2:         #1a1a1a;
+  --bg3:         #252525;
+  --card:        #161616;
+
+  --text:        #f5f5f5;
+  --text2:       #9ca3af;
+  --text3:       #6b7280;
+
+  --accent:      #818cf8;
+  --accent-soft: #1e1b4b;
+
+  --border:      #2a2a2a;
+
+  --tag-bg:      #222222;
+  --tag-text:    #d1d5db;
+}
