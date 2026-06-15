@@ -103,10 +103,10 @@
       /* Description */
       article.appendChild(el('p', 'project-desc', project.description));
 
-      /* FAANG signal */
-      if (project.faang_signal) {
-        article.appendChild(el('p', 'project-why', project.faang_signal));
-      }
+      // /* FAANG signal */
+      // if (project.faang_signal) {
+      //   article.appendChild(el('p', 'project-why', project.faang_signal));
+      // }
 
       /* Stack tags */
       const stack = el('div', 'project-stack');

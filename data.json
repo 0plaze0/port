@@ -65,7 +65,7 @@
       "name": "Lasso Regression Optimization (L1 Regularization)",
       "badge": "ML Frameworks · Optimization",
       "description": "Developed a custom Lasso Regression framework from scratch to predict Olympic medal distributions, leveraging L1 regularization to induce feature sparsity and automatic variable selection. Evaluated mathematical trade-offs against Ridge Regression, mapping how the L1 penalty zeroes out redundant predictors. Benchmarked objective function minimization trajectories against scikit-learn's coordinate descent solver.",
-      "faang_signal": "FAANG signal: Implementing core optimization algorithms from scratch demonstrates deep mathematical intuition and algorithmic rigor over basic API consumption.",
+
       "stack": ["Python", "NumPy", "Scikit-Learn", "Optimization"],
       "links": [
         { "label": "↗ GitHub", "url": "https://github.com/0plaze0/Ridge_Regression" }
@@ -75,7 +75,7 @@
       "name": "Car Price Predictor",
       "badge": "Machine Learning · Pipelines",
       "description": "Executed Exploratory Data Analysis (EDA) and built a rigorous data-cleaning pipeline on web-scraped automotive records from the Quikr website. Architected an end-to-end evaluation pipeline utilizing integrated Column Transformer mapping features alongside a Linear Regression model, producing an R² validation score of 0.92 on testing splits while handling skewed distributions via Interquartile Range (IQR) boundary adjustments.",
-      "faang_signal": "FAANG signal: Real-world data ingestion processing web-scraped distributions and utilizing advanced statistical processing handling outliers models production-grade data cleaning requirements.",
+      
       "stack": ["Python", "Scikit-Learn", "Pandas", "NumPy", "Machine Learning"],
       "links": [
         { "label": "↗ GitHub", "url": "https://github.com/0plaze0/carPrediction" }
@@ -85,7 +85,7 @@
       "name": "Olympic Data Analysis",
       "badge": "Data Analytics · Visualizations",
       "description": "Analyzed over 120 years of historical Olympic Games records, executing comprehensive processing pipelines to sanitize structural missing data and filter duplicate profiles. Constructed an interactive browser-based visual dashboard utilizing Streamlit to map overall medal metrics and country trajectories. Conducted advanced EDA using Pandas and Seaborn to parse demographic correlations with podium success rates.",
-      "faang_signal": "FAANG signal: Handling massive multi-featured datasets paired with interactive browser rendering reflects full-lifecycle dashboard generation for business intelligence teams.",
+      
       "stack": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit"],
       "links": [
         { "label": "↗ GitHub", "url": "https://github.com/0plaze0/olympicDataAnalysis" }
