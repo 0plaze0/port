@@ -1,128 +1,140 @@
 {
-  "identity": {
-    "name": "Akash Banik",
-    "initials": "AB",
-    "handle": "@0plaze0",
-    "role": "Machine Learning Engineer · MLOps Engineer",
-    "status": "Open to opportunities · M.Tech Data & Computational Sciences @ IIT Jodhpur",
-    "photo": "assests/profile.png"
-  },
-
-  "links": [
-    { "label": "⌥ GitHub",   "url": "https://github.com/0plaze0" },
-    { "label": "in LinkedIn", "url": "https://linkedin.com/in/akash-banik-2b8093253" },
-    { "label": "✉ Email",    "url": "mailto:akash.banik.dev@gmail.com" },
-    { "label": "⊕ Kaggle",   "url": "https://kaggle.com/0plaze0" }
-  ],
-
-  "about": "M.Tech student in Data & Computational Science at IIT Jodhpur, transitioning full-stack backend development expertise into production-grade machine learning systems. I specialize in bridging the gap between theoretical model architectures and low-latency prediction serving. Active builder focused on high-throughput streaming pipelines, containerized microservices, and continuous training orchestrations built to run reliably at scale.",
-
-  "skills": [
-    {
-      "category": "languages",
-      "items": [
-        { "name": "Python",  "accent": true  },
-        { "name": "SQL",     "accent": false },
-        { "name": "Bash",    "accent": false },
-        { "name": "R",       "accent": false }
-      ]
+    "identity": {
+        "name": "Akash Banik",
+        "initials": "AB",
+        "handle": "@0plaze0",
+        "role": "Machine Learning Engineer · Data Scientist",
+        "status": "Open to opportunities · M.Tech Data & Computational Sciences @ IIT Jodhpur",
+        "photo": "assests/profile.png"
     },
-    {
-      "category": "ML / DL",
-      "items": [
-        { "name": "PyTorch",      "accent": true  },
-        { "name": "Scikit-learn", "accent": false },
-        { "name": "HuggingFace", "accent": false },
-        { "name": "XGBoost",     "accent": false },
-        { "name": "LangChain",   "accent": false }
-      ]
-    },
-    {
-      "category": "MLOps",
-      "items": [
-        { "name": "Docker",         "accent": true  },
-        { "name": "FastAPI",        "accent": false },
-        { "name": "MLflow",         "accent": false },
-        { "name": "Airflow",        "accent": false },
-        { "name": "GitHub Actions", "accent": false }
-      ]
-    },
-    {
-      "category": "data",
-      "items": [
-        { "name": "Spark",      "accent": false },
-        { "name": "Pandas",     "accent": false },
-        { "name": "PostgreSQL", "accent": false },
-        { "name": "dbt",        "accent": false }
-      ]
+
+    "links": [
+        { "label": "⌥ GitHub", "url": "https://github.com/0plaze0" },
+        {
+            "label": "in LinkedIn",
+            "url": "https://linkedin.com/in/akash-banik-2b8093253"
+        },
+        { "label": "✉ Email", "url": "mailto:akash.banik.dev@gmail.com" },
+        {
+            "label": "✉ Institutional Email",
+            "url": "mailto:m25mac001@iitj.ac.in"
+        }
+    ],
+
+    "about": "M.Tech student in Data and Computational Sciences at IIT Jodhpur with a strong foundation in Machine Learning, mathematical optimization, and data analytics. Experienced in building custom algorithmic frameworks from scratch, designing end-to-end data-cleaning pipelines, and architecting interactive analytics dashboards. Proven leadership as Vice-President of GDSC CITK and certified in cloud and Linux infrastructures.",
+
+    "skills": [
+        {
+            "category": "languages",
+            "items": [
+                { "name": "Python", "accent": true },
+                { "name": "SQL", "accent": false },
+                { "name": "C/C++", "accent": false },
+                { "name": "JavaScript", "accent": false }
+            ]
+        },
+        {
+            "category": "ML / DL & Libraries",
+            "items": [
+                { "name": "Scikit-Learn", "accent": true },
+                { "name": "NumPy", "accent": true },
+                { "name": "Pandas", "accent": false },
+                { "name": "Matplotlib", "accent": false },
+                { "name": "Seaborn", "accent": false }
+            ]
+        },
+        {
+            "category": "Tools & OS",
+            "items": [
+                { "name": "Docker", "accent": true },
+                { "name": "Git/GitHub", "accent": false },
+                { "name": "Linux", "accent": false },
+                { "name": "Windows", "accent": false },
+                { "name": "VS-Code", "accent": false }
+            ]
+        }
+    ],
+
+    "projects": [
+        {
+            "name": "Smart Review Classifier",
+            "badge": "NLP · Sentiment Analysis",
+            "description": "Built a complete sentiment analysis pipeline utilizing the Amazon Fine Food Reviews dataset[cite: 62]. Cleaned the text data using Pandas, extracted features via TF-IDF vectorization, and developed a custom ensemble model (Logistic Regression and Naive Bayes) using NumPy that achieved 91.2% accuracy[cite: 63]. Deployed the model as a live interactive web application using Streamlit to showcase real-time predictions[cite: 64].",
+            "faang_signal": "FAANG signal: Engineering end-to-end NLP pipelines handling customer review datasets coupled with writing mathematically sound custom ensembles from scratch instead of high-level wrappers matches modern scale-intelligence paradigms.",
+            "stack": [
+                "Python",
+                "Pandas [cite: 63]",
+                "NumPy [cite: 63]",
+                "TF-IDF [cite: 63]",
+                "Streamlit [cite: 64]"
+            ],
+            "links": [
+                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
+            ]
+        },
+        {
+            "name": "Lasso Regression Optimization (L1 Regularization)",
+            "badge": "ML Frameworks · Optimization",
+            "description": "Developed a custom Lasso Regression framework from scratch to predict Olympic medal distributions, leveraging L1 regularization to induce feature sparsity and automatic variable selection. Evaluated mathematical trade-offs against Ridge Regression, mapping how the L1 penalty zeroes out redundant predictors. Benchmarked objective function minimization trajectories against scikit-learn's coordinate descent solver.",
+            "faang_signal": "FAANG signal: Implementing core optimization algorithms from scratch demonstrates deep mathematical intuition and algorithmic rigor over basic API consumption.",
+            "stack": ["Python", "NumPy", "Scikit-Learn", "Optimization"],
+            "links": [
+                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
+            ]
+        },
+        {
+            "name": "Car Price Predictor",
+            "badge": "Machine Learning · Pipelines",
+            "description": "Executed Exploratory Data Analysis (EDA) and built a rigorous data-cleaning pipeline on web-scraped automotive records from the Quikr website. Architected an end-to-end evaluation pipeline utilizing integrated Column Transformer mapping features alongside a Linear Regression model, producing an R² validation score of 0.92 on testing splits while handling skewed distributions via Interquartile Range (IQR) boundary adjustments.",
+            "faang_signal": "FAANG signal: Real-world data ingestion processing web-scraped distributions and utilizing advanced statistical processing handling outliers models production-grade data cleaning requirements.",
+            "stack": [
+                "Python",
+                "Scikit-Learn",
+                "Pandas",
+                "NumPy",
+                "Machine Learning"
+            ],
+            "links": [
+                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
+            ]
+        },
+        {
+            "name": "Olympic Data Analysis",
+            "badge": "Data Analytics · Visualizations",
+            "description": "Analyzed over 120 years of historical Olympic Games records, executing comprehensive processing pipelines to sanitize structural missing data and filter duplicate profiles. Constructed an interactive browser-based visual dashboard utilizing Streamlit to map overall medal metrics and country trajectories. Conducted advanced EDA using Pandas and Seaborn to parse demographic correlations with podium success rates.",
+            "faang_signal": "FAANG signal: Handling massive multi-featured datasets paired with interactive browser rendering reflects full-lifecycle dashboard generation for business intelligence teams.",
+            "stack": [
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Seaborn",
+                "Streamlit"
+            ],
+            "links": [
+                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
+            ]
+        }
+    ],
+
+    "education": [
+        {
+            "degree": "M.Tech in Data and Computational Sciences",
+            "institution": "Indian Institute of Technology, Jodhpur",
+            "period": "2025 – 2027",
+            "detail": "CGPA: 7.43"
+        },
+        {
+            "degree": "B.Tech",
+            "institution": "Central Institute of Technology Kokrajhar",
+            "period": "2021 – 2025",
+            "detail": "CGPA: 8.75"
+        }
+    ],
+
+    "footer": {
+        "tagline": "// currently open to full-time ML and Data Science roles",
+        "cta_label": "Let's talk →",
+        "cta_url": "mailto:akash.banik.dev@gmail.com"
     }
-  ],
-
-  "projects": [
-    {
-      "name": "Real-Time Fraud Detection System",
-      "badge": "ML Systems",
-      "description": "End-to-end streaming pipeline that classifies transactions as fraudulent in under 50ms. Built with a fine-tuned gradient-boosted ensemble, served via FastAPI, with Kafka for event streaming and a live monitoring dashboard tracking model drift.",
-      "faang_signal": "FAANG signal: systems design + latency constraints + production ML — mirrors real infra at scale",
-      "stack": ["Python", "XGBoost", "Kafka", "FastAPI", "Docker", "MLflow"],
-      "links": [
-        { "label": "↗ GitHub", "url": "https://github.com/yourhandle/fraud-detection" },
-        { "label": "⊡ Demo",   "url": "#" }
-      ]
-    },
-    {
-      "name": "LLM-Powered Code Review Agent",
-      "badge": "NLP · Agents",
-      "description": "Autonomous agent that reviews GitHub PRs — detects bugs, style violations, and suggests refactors using a fine-tuned Code LLM with retrieval-augmented context from the repo's history. Integrated as a GitHub Action.",
-      "faang_signal": "FAANG signal: LLM fine-tuning + RAG + agentic AI — one of the most in-demand skill stacks in 2025",
-      "stack": ["PyTorch", "HuggingFace", "LangChain", "GitHub Actions", "FAISS", "FastAPI"],
-      "links": [
-        { "label": "↗ GitHub", "url": "https://github.com/yourhandle/code-review-agent" },
-        { "label": "⊡ Demo",   "url": "#" }
-      ]
-    },
-    {
-      "name": "Scalable Recommender System",
-      "badge": "RecSys · MLOps",
-      "description": "Two-tower neural recommender trained on the MovieLens-25M dataset with approximate nearest-neighbour search (FAISS) for sub-10ms inference. Includes an A/B testing harness, feature store, and automated retraining pipeline.",
-      "faang_signal": "FAANG signal: RecSys is core to Google/Meta/Amazon — two-tower + FAISS + A/B testing is their exact stack",
-      "stack": ["PyTorch", "FAISS", "Airflow", "PostgreSQL", "Redis", "Spark"],
-      "links": [
-        { "label": "↗ GitHub", "url": "https://github.com/yourhandle/recsys" },
-        { "label": "⊡ Demo",   "url": "#" }
-      ]
-    },
-    {
-      "name": "ML Platform & Experiment Tracker",
-      "badge": "MLOps · Infra",
-      "description": "Lightweight internal ML platform — think a mini Weights & Biases. Tracks experiment runs, hyperparameters, and metrics with a comparison dashboard. CI/CD pipeline auto-deploys winning models to a staging environment on each commit.",
-      "faang_signal": "FAANG signal: infra thinking sets you apart — most candidates only show models, not the platform around them",
-      "stack": ["Python", "MLflow", "Docker", "GitHub Actions", "Grafana", "dbt"],
-      "links": [
-        { "label": "↗ GitHub", "url": "https://github.com/yourhandle/ml-platform" },
-        { "label": "⊡ Demo",   "url": "#" }
-      ]
-    }
-  ],
-
-  "education": [
-    {
-      "degree": "M.Tech in Data and Computational Sciences",
-      "institution": "Indian Institute of Technology, Jodhpur",
-      "period": "2025 – 2027",
-      "detail": "CGPA: 7.43"
-    },
-    {
-      "degree": "B.Tech",
-      "institution": "Central Institute of Technology Kokrajhar",
-      "period": "2021 – 2025",
-      "detail": "CGPA: 8.75"
-    }
-  ],
-
-  "footer": {
-    "tagline": "// currently open to full-time ML roles",
-    "cta_label": "Let's talk →",
-    "cta_url": "mailto:akash.banik.dev@gmail.com"
-  }
 }
