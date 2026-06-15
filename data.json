@@ -1,140 +1,137 @@
 {
-    "identity": {
-        "name": "Akash Banik",
-        "initials": "AB",
-        "handle": "@0plaze0",
-        "role": "Machine Learning Engineer · Data Scientist",
-        "status": "Open to opportunities · M.Tech Data & Computational Sciences @ IIT Jodhpur",
-        "photo": "assests/profile.png"
+  "identity": {
+    "name": "Akash Banik",
+    "initials": "AB",
+    "handle": "@0plaze0",
+    "role": "Machine Learning Engineer · Data Scientist",
+    "status": "Open to opportunities · M.Tech Data & Computational Sciences @ IIT Jodhpur",
+    "photo": "assests/profile.png"
+  },
+
+  "links": [
+    { "label": "⌥ GitHub",   "url": "https://github.com/0plaze0" },
+    { "label": "in LinkedIn", "url": "https://www.linkedin.com/in/akash-banik-2b8093253/" },
+    { "label": "🌐 Website",  "url": "https://port-hd9n.onrender.com/" },
+    { "label": "✉ Email",    "url": "mailto:akash.banik.dev@gmail.com" },
+    { "label": "✉ Institutional Email", "url": "mailto:m25mac001@iitj.ac.in" }
+  ],
+
+  "about": "M.Tech student in Data and Computational Sciences at IIT Jodhpur with a strong foundation in Machine Learning, mathematical optimization, and data analytics. Experienced in building custom algorithmic frameworks from scratch, designing end-to-end data-cleaning pipelines, and architecting interactive analytics dashboards. Proven leadership as Vice-President of GDSC CITK and certified in cloud and Linux infrastructures.",
+
+  "skills": [
+    {
+      "category": "languages",
+      "items": [
+        { "name": "Python",  "accent": true  },
+        { "name": "SQL",     "accent": false },
+        { "name": "C/C++",   "accent": false },
+        { "name": "JavaScript", "accent": false }
+      ]
     },
-
-    "links": [
-        { "label": "⌥ GitHub", "url": "https://github.com/0plaze0" },
-        {
-            "label": "in LinkedIn",
-            "url": "https://linkedin.com/in/akash-banik-2b8093253"
-        },
-        { "label": "✉ Email", "url": "mailto:akash.banik.dev@gmail.com" },
-        {
-            "label": "✉ Institutional Email",
-            "url": "mailto:m25mac001@iitj.ac.in"
-        }
-    ],
-
-    "about": "M.Tech student in Data and Computational Sciences at IIT Jodhpur with a strong foundation in Machine Learning, mathematical optimization, and data analytics. Experienced in building custom algorithmic frameworks from scratch, designing end-to-end data-cleaning pipelines, and architecting interactive analytics dashboards. Proven leadership as Vice-President of GDSC CITK and certified in cloud and Linux infrastructures.",
-
-    "skills": [
-        {
-            "category": "languages",
-            "items": [
-                { "name": "Python", "accent": true },
-                { "name": "SQL", "accent": false },
-                { "name": "C/C++", "accent": false },
-                { "name": "JavaScript", "accent": false }
-            ]
-        },
-        {
-            "category": "ML / DL & Libraries",
-            "items": [
-                { "name": "Scikit-Learn", "accent": true },
-                { "name": "NumPy", "accent": true },
-                { "name": "Pandas", "accent": false },
-                { "name": "Matplotlib", "accent": false },
-                { "name": "Seaborn", "accent": false }
-            ]
-        },
-        {
-            "category": "Tools & OS",
-            "items": [
-                { "name": "Docker", "accent": true },
-                { "name": "Git/GitHub", "accent": false },
-                { "name": "Linux", "accent": false },
-                { "name": "Windows", "accent": false },
-                { "name": "VS-Code", "accent": false }
-            ]
-        }
-    ],
-
-    "projects": [
-        {
-            "name": "Smart Review Classifier",
-            "badge": "NLP · Sentiment Analysis",
-            "description": "Built a complete sentiment analysis pipeline utilizing the Amazon Fine Food Reviews dataset[cite: 62]. Cleaned the text data using Pandas, extracted features via TF-IDF vectorization, and developed a custom ensemble model (Logistic Regression and Naive Bayes) using NumPy that achieved 91.2% accuracy[cite: 63]. Deployed the model as a live interactive web application using Streamlit to showcase real-time predictions[cite: 64].",
-            "faang_signal": "FAANG signal: Engineering end-to-end NLP pipelines handling customer review datasets coupled with writing mathematically sound custom ensembles from scratch instead of high-level wrappers matches modern scale-intelligence paradigms.",
-            "stack": [
-                "Python",
-                "Pandas [cite: 63]",
-                "NumPy [cite: 63]",
-                "TF-IDF [cite: 63]",
-                "Streamlit [cite: 64]"
-            ],
-            "links": [
-                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
-            ]
-        },
-        {
-            "name": "Lasso Regression Optimization (L1 Regularization)",
-            "badge": "ML Frameworks · Optimization",
-            "description": "Developed a custom Lasso Regression framework from scratch to predict Olympic medal distributions, leveraging L1 regularization to induce feature sparsity and automatic variable selection. Evaluated mathematical trade-offs against Ridge Regression, mapping how the L1 penalty zeroes out redundant predictors. Benchmarked objective function minimization trajectories against scikit-learn's coordinate descent solver.",
-            "faang_signal": "FAANG signal: Implementing core optimization algorithms from scratch demonstrates deep mathematical intuition and algorithmic rigor over basic API consumption.",
-            "stack": ["Python", "NumPy", "Scikit-Learn", "Optimization"],
-            "links": [
-                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
-            ]
-        },
-        {
-            "name": "Car Price Predictor",
-            "badge": "Machine Learning · Pipelines",
-            "description": "Executed Exploratory Data Analysis (EDA) and built a rigorous data-cleaning pipeline on web-scraped automotive records from the Quikr website. Architected an end-to-end evaluation pipeline utilizing integrated Column Transformer mapping features alongside a Linear Regression model, producing an R² validation score of 0.92 on testing splits while handling skewed distributions via Interquartile Range (IQR) boundary adjustments.",
-            "faang_signal": "FAANG signal: Real-world data ingestion processing web-scraped distributions and utilizing advanced statistical processing handling outliers models production-grade data cleaning requirements.",
-            "stack": [
-                "Python",
-                "Scikit-Learn",
-                "Pandas",
-                "NumPy",
-                "Machine Learning"
-            ],
-            "links": [
-                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
-            ]
-        },
-        {
-            "name": "Olympic Data Analysis",
-            "badge": "Data Analytics · Visualizations",
-            "description": "Analyzed over 120 years of historical Olympic Games records, executing comprehensive processing pipelines to sanitize structural missing data and filter duplicate profiles. Constructed an interactive browser-based visual dashboard utilizing Streamlit to map overall medal metrics and country trajectories. Conducted advanced EDA using Pandas and Seaborn to parse demographic correlations with podium success rates.",
-            "faang_signal": "FAANG signal: Handling massive multi-featured datasets paired with interactive browser rendering reflects full-lifecycle dashboard generation for business intelligence teams.",
-            "stack": [
-                "Python",
-                "Pandas",
-                "NumPy",
-                "Matplotlib",
-                "Seaborn",
-                "Streamlit"
-            ],
-            "links": [
-                { "label": "↗ GitHub", "url": "https://github.com/0plaze0" }
-            ]
-        }
-    ],
-
-    "education": [
-        {
-            "degree": "M.Tech in Data and Computational Sciences",
-            "institution": "Indian Institute of Technology, Jodhpur",
-            "period": "2025 – 2027",
-            "detail": "CGPA: 7.43"
-        },
-        {
-            "degree": "B.Tech",
-            "institution": "Central Institute of Technology Kokrajhar",
-            "period": "2021 – 2025",
-            "detail": "CGPA: 8.75"
-        }
-    ],
-
-    "footer": {
-        "tagline": "// currently open to full-time ML and Data Science roles",
-        "cta_label": "Let's talk →",
-        "cta_url": "mailto:akash.banik.dev@gmail.com"
+    {
+      "category": "ML / DL & Libraries",
+      "items": [
+        { "name": "Scikit-Learn", "accent": true  },
+        { "name": "NumPy",        "accent": true  },
+        { "name": "Pandas",       "accent": false },
+        { "name": "Matplotlib",   "accent": false },
+        { "name": "Seaborn",      "accent": false }
+      ]
+    },
+    {
+      "category": "Tools & OS",
+      "items": [
+        { "name": "Docker",     "accent": true  },
+        { "name": "Git/GitHub", "accent": false },
+        { "name": "Linux",      "accent": false },
+        { "name": "Windows",    "accent": false },
+        { "name": "VS-Code",    "accent": false }
+      ]
     }
+  ],
+
+  "projects": [
+    {
+      "name": "Smart Review Classifier",
+      "badge": "NLP · Sentiment Analysis",
+      "description": "Built a complete sentiment analysis pipeline utilizing the Amazon Fine Food Reviews dataset. Cleaned the text data using Pandas, extracted features via TF-IDF vectorization, and developed a custom ensemble model (Logistic Regression and Naive Bayes) using NumPy that achieved 91.2% accuracy. Deployed the model as a live interactive web application using Streamlit to showcase real-time predictions.",
+      "faang_signal": "FAANG signal: Engineering end-to-end NLP pipelines handling customer review datasets coupled with writing mathematically sound custom ensembles from scratch instead of high-level wrappers matches modern scale-intelligence paradigms.",
+      "stack": ["Python", "Pandas", "NumPy", "TF-IDF", "Streamlit"],
+      "links": [
+        { "label": "↗ GitHub", "url": "github.com/0plaze0/smartReviewClassifier" }
+      ]
+    },
+    {
+      "name": "Lasso Regression Optimization (L1 Regularization)",
+      "badge": "ML Frameworks · Optimization",
+      "description": "Developed a custom Lasso Regression framework from scratch to predict Olympic medal distributions, leveraging L1 regularization to induce feature sparsity and automatic variable selection. Evaluated mathematical trade-offs against Ridge Regression, mapping how the L1 penalty zeroes out redundant predictors. Benchmarked objective function minimization trajectories against scikit-learn's coordinate descent solver.",
+      "faang_signal": "FAANG signal: Implementing core optimization algorithms from scratch demonstrates deep mathematical intuition and algorithmic rigor over basic API consumption.",
+      "stack": ["Python", "NumPy", "Scikit-Learn", "Optimization"],
+      "links": [
+        { "label": "↗ GitHub", "url": "https://github.com/0plaze0/Ridge_Regression" }
+      ]
+    },
+    {
+      "name": "Car Price Predictor",
+      "badge": "Machine Learning · Pipelines",
+      "description": "Executed Exploratory Data Analysis (EDA) and built a rigorous data-cleaning pipeline on web-scraped automotive records from the Quikr website. Architected an end-to-end evaluation pipeline utilizing integrated Column Transformer mapping features alongside a Linear Regression model, producing an R² validation score of 0.92 on testing splits while handling skewed distributions via Interquartile Range (IQR) boundary adjustments.",
+      "faang_signal": "FAANG signal: Real-world data ingestion processing web-scraped distributions and utilizing advanced statistical processing handling outliers models production-grade data cleaning requirements.",
+      "stack": ["Python", "Scikit-Learn", "Pandas", "NumPy", "Machine Learning"],
+      "links": [
+        { "label": "↗ GitHub", "url": "https://github.com/0plaze0/carPrediction" }
+      ]
+    },
+    {
+      "name": "Olympic Data Analysis",
+      "badge": "Data Analytics · Visualizations",
+      "description": "Analyzed over 120 years of historical Olympic Games records, executing comprehensive processing pipelines to sanitize structural missing data and filter duplicate profiles. Constructed an interactive browser-based visual dashboard utilizing Streamlit to map overall medal metrics and country trajectories. Conducted advanced EDA using Pandas and Seaborn to parse demographic correlations with podium success rates.",
+      "faang_signal": "FAANG signal: Handling massive multi-featured datasets paired with interactive browser rendering reflects full-lifecycle dashboard generation for business intelligence teams.",
+      "stack": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit"],
+      "links": [
+        { "label": "↗ GitHub", "url": "https://github.com/0plaze0/olympicDataAnalysis" }
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "M.Tech in Data and Computational Sciences",
+      "institution": "Indian Institute of Technology, Jodhpur",
+      "period": "2025 – 2027",
+      "detail": "CGPA: 7.43"
+    },
+    {
+      "degree": "B.Tech",
+      "institution": "Central Institute of Technology Kokrajhar",
+      "period": "2021 – 2025",
+      "detail": "CGPA: 8.75"
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "Amazon Web Services Educate Introduction to Cloud 101",
+      "issuer": "Amazon Web Services",
+      "date": "Apr. 2025",
+      "url": "https://www.credly.com/badges/cae0bb9b-bf00-48ea-a965-ed2219719295/linked_in_profile"
+    },
+    {
+      "name": "GATE DA",
+      "issuer": "Qualified",
+      "date": "Apr. 2025",
+      "url": ""
+    },
+    {
+      "name": "Linux Unhatched",
+      "issuer": "Cisco Networking Academy",
+      "date": "Jun. 2025",
+      "url": "https://www.credly.com/badges/adbc0068-abfa-4800-a40d-c24023eedc84/public_url"
+    }
+  ],
+
+  "footer": {
+    "tagline": "// currently open to full-time ML and Data Science roles",
+    "cta_label": "Let's talk →",
+    "cta_url": "mailto:akash.banik.dev@gmail.com"
+  }
 }
